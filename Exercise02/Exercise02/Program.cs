@@ -11,9 +11,9 @@ namespace Exercise02
             var Value = Console.ReadLine();
             try
             {
-                int ConvertedToInt = Convert.ToInt32(Value);
+                long ConvertedToInt = Convert.ToInt64(Value);
 
-                int j = new int();
+                long j = new long();
                 var describedInteger = j.Towards(ConvertedToInt);
 
                 Console.WriteLine(describedInteger);
